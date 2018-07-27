@@ -3,3 +3,5 @@ const logMsg = (msg: any) => {
 }
 
 logMsg('welcome');
+
+document.write('go');

@@ -1,0 +1,23 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prestart": "tsc index.ts",
+    "poststart": "echo \"This is affter the end point.\"",
+    "dir": "dir"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.2"
+  }
+}

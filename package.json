@@ -1,5 +1,5 @@
 {
-  "name": "rxjs",
+  "name": "webpack-conf",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",

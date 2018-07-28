@@ -1,2 +1,2 @@
-# rxjs
+# webpack-conf
 Some demo

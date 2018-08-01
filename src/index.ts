@@ -1,19 +1,13 @@
-// RxJS v6+
 import { interval } from 'rxjs';
-import {map, filter, sample} from 'rxjs/operators';
-//emit value every 1s
-const source = interval(1000);
-//sample last emitted value from source every 2s
-const example = source.pipe(sample(interval(2000)));
-//output: 2..4..6..8..
-const subscribe = example.subscribe(val => console.log(val));
-
-const logMsg = (msg: any) => {
-  console.log(msg);
-}
+import { map, filter, sample } from 'rxjs/operators';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
 
 
+/* const observable = new Observable((observer) => {
+  observer.next(5);
+});
 
-logMsg('welcome!');
+observable.subscribe(value => console.log(value + '!'));
 
-document.write('go');
+console.log('And now we are here.'); */
